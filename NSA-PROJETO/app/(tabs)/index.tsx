@@ -4,10 +4,7 @@ export default function Index() {
   return (
       <View style={styles.container}>
       <View style={styles.navContainer}>
-      <Button
-        title=" "
-        color="#841584"
-        accessibilityLabel="Learn more about this purple button"/>
+
       </View>
       </View>
   );
@@ -32,5 +29,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'space-evenly',
     borderBottomColor: 'white',
+    
   }
 })
